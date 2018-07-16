@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="coding-challenges" />
         <module name="codingChallenges" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="coding-challenges" target="1.8" />
       <module name="codingChallenges" target="1.8" />
     </bytecodeTargetLevel>
   </component>
