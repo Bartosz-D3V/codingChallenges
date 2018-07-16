@@ -1,7 +1,7 @@
 # Exercise description
-Write an algorith that will take a String as an argument and return a String with removed duplicated characters.
+Write an algorithm that will take a String as an argument and return a String with removed duplicated characters.
 
-For insance when passing this String:
+For instance when passing this String:
 
 "I am great!"
 
