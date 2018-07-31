@@ -1,10 +1,10 @@
 package linkedLists.common;
 
 public final class Node {
-  private final int data;
+  private int data;
   private Node next = null;
 
-  public Node(final int data) {
+  public Node(int data) {
     this.data = data;
   }
 
@@ -24,7 +24,35 @@ public final class Node {
     return deleteNode(head.next, data);
   }
 
+  public int getData() {
+    return data;
+  }
+
+  public void setData(final int data) {
+    this.data = data;
+  }
+
   public Node getNext() {
     return next;
+  }
+
+  public void setNext(final Node next) {
+    this.next = next;
+  }
+
+  @Override
+  public int hashCode() {
+    int hashCode = data;
+    Node node = this;
+    while (node.getNext() != null) {
+      data += getNext().getData();
+      node = node.getNext();
+    }
+    return hashCode;
+  }
+
+  @Override
+  public boolean equals(final Object o) {
+    return (o instanceof Node) && hashCode() == o.hashCode();
   }
 }
