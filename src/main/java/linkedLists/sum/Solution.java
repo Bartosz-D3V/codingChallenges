@@ -1,6 +1,6 @@
 package linkedLists.sum;
 
-import linkedLists.common.Node;
+import common.Node;
 
 class Solution {
   static Node sum(final Node number1, final Node number2) {

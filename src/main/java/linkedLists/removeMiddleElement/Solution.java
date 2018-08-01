@@ -1,6 +1,6 @@
 package linkedLists.removeMiddleElement;
 
-import linkedLists.common.Node;
+import common.Node;
 
 class Solution {
   static void removeMidElement(final Node nodeToRemove) {

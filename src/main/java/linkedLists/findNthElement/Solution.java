@@ -1,6 +1,6 @@
 package linkedLists.findNthElement;
 
-import linkedLists.common.Node;
+import common.Node;
 
 class Solution {
   static Node findNthElement(final Node head, final int n) {

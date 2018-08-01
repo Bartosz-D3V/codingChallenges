@@ -1,6 +1,6 @@
 package linkedLists.circularList;
 
-import linkedLists.common.Node;
+import common.Node;
 
 class Solution {
   static Node getNodeStartingLoop(final Node node) {

@@ -1,6 +1,6 @@
 package linkedLists.removeMiddleElement;
 
-import linkedLists.common.Node;
+import common.Node;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

@@ -1,4 +1,4 @@
-package linkedLists.common;
+package common;
 
 public final class Node {
   private int data;
