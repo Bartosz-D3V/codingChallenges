@@ -19,7 +19,7 @@ class Solution {
     final String sum = String.valueOf(Long.valueOf(num1Chars.toString()) + Long.valueOf(num2Chars.toString()));
     final Node sumHead = new Node(Integer.valueOf(sum.substring(0, 1)));
     for (int i = 1; i < sum.length(); i++) {
-      sumHead.setNext(new Node(Integer.valueOf(sum.substring(i, i + 1))));
+      sumHead.appendToTail(Integer.valueOf(sum.substring(i, i + 1)));
     }
     return sumHead;
   }

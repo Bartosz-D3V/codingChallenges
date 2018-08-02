@@ -45,7 +45,7 @@ public final class Node {
     int hashCode = data;
     Node node = this;
     while (node.getNext() != null) {
-      data += getNext().getData();
+      hashCode += getNext().getData();
       node = node.getNext();
     }
     return hashCode;
