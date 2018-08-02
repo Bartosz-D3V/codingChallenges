@@ -1,7 +1,7 @@
 package common;
 
 public final class Stack {
-  Node top;
+  private Node top;
 
   public Node pop() {
     if (top != null) {
