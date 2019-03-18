@@ -15,7 +15,7 @@ public class SolutionTest {
 
   @Test
   public void isAnagramShouldReturnFalseIfWordsAreNotAnagrams() {
-    assertFalse(Solution.isAnagram("tree", "era"));
+    assertFalse(Solution.isAnagram("common", "era"));
     assertFalse(Solution.isAnagram("Stone", "Tone"));
     assertFalse(Solution.isAnagram("Build", "Lucid"));
   }
